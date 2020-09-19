@@ -1,6 +1,6 @@
 # ReactNative-Animations
 
-##### We have two types of animation systems provided by React-Native:
+#### We have two types of animation systems provided by React-Native:
 ## 1. LayoutAnimation:
   - It's easy to setup but we don't have much control over it.
 ## 2. Animated:
