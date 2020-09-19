@@ -32,9 +32,13 @@ Different Modules that helps in defining different paramters for the animations 
   1. What are we touching
   2. What component handles touch
   3. How is the gesture changing
-PanResponder Object provides many functions for the control like
-  - onStartShouldSetPanResponder(): it basically tells wether this should handle,respond to the the interaction made,eg:if it should do anything id user touches the component.it has true or false as return value
+  
+PanResponder Object provides many functions for the control like:
+
+  - onStartShouldSetPanResponder(): it basically tells wether this should handle,respond to the the interaction made,eg:if it should do anything id user touches the component.it has true or false as return value.
+  
   - onPanResponderMove(event,gesture):keeps track of the movement and all the details of the interaction.
+  
   - OnPanResponderRelease():it tells what to do when in interaction removes or is released.
   
   
