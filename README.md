@@ -41,4 +41,8 @@ PanResponder Object provides many functions for the control like:
   
   - OnPanResponderRelease():it tells what to do when in interaction removes or is released.
   
+ ### Interpolation system
+ - It helps to change one property based on the change of the other property.
+ - Like we wan't to change the color/size/rotation etc of the component as it moves.
+  
   
